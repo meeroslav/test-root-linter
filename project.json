@@ -60,6 +60,17 @@
           "hmr": false
         }
       }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "src/**/*.ts",
+          "src/**/*.tsx",
+          "src/**/*.js",
+          "src/**/*.jsx"
+        ]
+      }
     }
   },
   "tags": []
