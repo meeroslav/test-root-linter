@@ -1,23 +1,5 @@
 {
   "root": true,
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true,
-      "modules": true
-    },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "ignorePatterns": ["!**/*"],
   "plugins": ["react", "@nrwl/nx"],
   "overrides": [
     {
